@@ -1,0 +1,27 @@
+{
+  "name": "artitalk-mongodb",
+  "version": "1.0.0",
+  "description": "Artitalk MongoDB 版本 - 轻量级说说系统",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "dev": "cd server && npm run dev",
+    "install:backend": "cd server && npm install"
+  },
+  "keywords": [
+    "artitalk",
+    "mongodb",
+    "express",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/artitalk-mongodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/artitalk-mongodb/issues"
+  },
+  "homepage": "https://github.com/yourusername/artitalk-mongodb#readme"
+}
