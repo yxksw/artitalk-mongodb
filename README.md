@@ -199,9 +199,13 @@ api.getShuoshuoList()
 
 ## 管理员设置
 
+详细的管理员模式设置指南请参考 [ADMIN_SETUP.md](ADMIN_SETUP.md) 文件。
+
+### 简要步骤
+
 1. 注册用户时，默认角色为 `user`
 2. 需要在 MongoDB 中将用户角色修改为 `admin` 才能发布说说
-3. 修改方法：在 MongoDB 中找到用户文档，将 `role` 字段设置为 `admin`
+3. 可以通过直接在 MongoDB 中创建管理员用户或修改现有用户角色两种方式设置管理员
 
 ## 安全注意事项
 
